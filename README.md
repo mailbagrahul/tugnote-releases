@@ -1,19 +1,19 @@
-# Ninaivu releases
+# Tugnote
 
-Ninaivu (Tamil நினைவு, "memory") is a macOS menu bar app for setting a reminder in under two seconds: pull a thread from the menu bar, or type `tea 12m`.
+Tugnote is a macOS menu bar app for remembering the thing you were about to forget. Tug the thread down from the menu bar to set a reminder in a second, or type `tea 12m`, `call Amma 3:30pm` or `dentist fri 3pm`. It also keeps sticky notes on the edge of your screen.
 
-This repository only hosts the downloadable builds. Install with Homebrew:
+## Download
 
-    brew tap mailbagrahul/ninaivu
-    brew trust mailbagrahul/ninaivu
-    brew install --cask ninaivu
+**[⬇ Download Tugnote.dmg](https://github.com/mailbagrahul/tugnote-releases/releases/latest/download/Tugnote.dmg)**
 
-Or download the zip from the latest release and drag `Ninaivu.app` to Applications.
+Open the disk image and drag **Tugnote** into **Applications**. Then open it from Applications or Spotlight; it lives in the menu bar.
 
-The app is not yet notarized. On first launch macOS will say it cannot verify the developer: open System Settings › Privacy & Security and click **Open Anyway**.
+- Requires macOS 14 (Sonoma) or later.
+- Signed with a Developer ID and notarized by Apple, so it opens normally, including on managed work Macs.
+- Updates itself: when a new version is out, Tugnote shows "Update available". Your reminders and notes are kept.
 
-Requires macOS 14 or later.
+This repository only hosts the downloads and the update feed. Tugnote was called Ninaivu before version 0.5.0; older releases below carry that name.
 
 ## Credits
 
-- **[Noty](https://github.com/aimen08/noty)** by Aymen Hamza ([@aimen08](https://github.com/aimen08)), MIT License — Ninaivu's sticky-notes deck (from 0.4.0) is ported from Noty. Its license ships inside the app (`Ninaivu.app/Contents/Resources/Licenses/`) and is shown in Settings › About.
+- **[Noty](https://github.com/aimen08/noty)** by Aymen Hamza ([@aimen08](https://github.com/aimen08)), MIT License: Tugnote's sticky-notes deck is ported from Noty. Its license ships inside the app (`Tugnote.app/Contents/Resources/Licenses/`) and is shown in Settings › About.
