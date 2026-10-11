@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
   <channel>
-    <title>Ninaivu</title>
-    <link>https://github.com/mailbagrahul/ninaivu-releases</link>
-    <description>Ninaivu updates</description>
+    <title>Tugnote</title>
+    <link>https://github.com/mailbagrahul/tugnote-releases</link>
+    <description>Tugnote updates</description>
     <language>en</language>
+    <item>
+      <title>Tugnote 0.5.0</title>
+      <pubDate>Sun, 11 Oct 2026 20:57:04 GMT</pubDate>
+      <sparkle:version>9</sparkle:version>
+      <sparkle:shortVersionString>0.5.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<ul><li>Ninaivu is now **Tugnote**. Your reminders, notes and settings are carried over automatically on first launch (the old data is kept as a backup).</li><li>Signed with a Developer ID and notarized by Apple: download `Tugnote.dmg` and it opens normally, including on managed work Macs.</li><li>Downloads are a drag-to-Applications `.dmg`; the Homebrew tap is retired.</li><li>Notes links use `tugnote://`; the iCloud Drive folder is &quot;Tugnote Notes&quot; and the Apple Reminders list &quot;Tugnote&quot;.</li><li>Builds with Swift 6.4.</li></ul>]]></description>
+      <enclosure url="https://github.com/mailbagrahul/tugnote-releases/releases/download/v0.5.0/Tugnote-0.5.0.zip" type="application/octet-stream" sparkle:edSignature="2jUZxR1uJJuFr4mt7x5cbsyLQ/dupzqDOEcUdNFgoqtCs1P7jNftpeV59IvhX8yVgdxraP/g7tYNsoTRVzPABQ==" length="2964572"/>
+    </item>
     <item>
       <title>Ninaivu 0.4.3</title>
       <pubDate>Sun, 27 Sep 2026 06:27:11 GMT</pubDate>
